@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Faizi Jan Seva Kendra</title>
+
+<meta name="description" content="Faizi Jan Seva Kendra - Aadhaar, PAN, Banking, Bill Payment, Online Services">
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#f5f5f5;
+}
+
+/* HEADER */
+header{
+background:linear-gradient(135deg,#004d40,#009688);
+color:white;
+text-align:center;
+padding:40px;
+}
+
+/* NAV */
+nav{
+background:#00695c;
+padding:10px;
+text-align:center;
+position:sticky;
+top:0;
+}
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* HERO */
+.hero{
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url('https://images.unsplash.com/photo-1581091870622-1e7d7f7a5c0c');
+background-size:cover;
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+/* SLIDER */
+.slider{
+max-width:1000px;
+margin:20px auto;
+overflow:hidden;
+border-radius:10px;
+}
+.slides{
+display:flex;
+animation:slide 10s infinite;
+}
+.slides img{
+width:100%;
+}
+@keyframes slide{
+0%{transform:translateX(0);}
+33%{transform:translateX(-100%);}
+66%{transform:translateX(-200%);}
+100%{transform:translateX(0);}
+}
+
+/* CONTAINER */
+.container{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+/* SERVICE CARDS */
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+}
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+.card:hover{
+transform:translateY(-10px);
+}
+
+/* FORM */
+.box{
+background:white;
+padding:20px;
+margin-top:20px;
+border-radius:10px;
+}
+
+/* BUTTONS */
+.btn{
+background:#ff9800;
+color:white;
+padding:10px 15px;
+border-radius:5px;
+text-decoration:none;
+}
+
+/* FLOAT BUTTONS */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50%;
+}
+
+.call{
+position:fixed;
+bottom:80px;
+right:20px;
+background:#2196F3;
+color:white;
+padding:15px;
+border-radius:50%;
+}
+
+/* FOOTER */
+footer{
+background:#004d40;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>FAIZI JAN SEVA KENDRA</h1>
+<p>All Online Digital Services Available</p>
+</header>
+
+<nav>
+<a href="#services">Services</a>
+<a href="#apply">Apply</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+<h2>Welcome to Faizi Jan Seva Kendra</h2>
+<p>Aadhaar, PAN, Banking, Bill Payment & More</p>
+</div>
+
+<!-- SLIDER -->
+<div class="slider">
+<div class="slides">
+<img src="https://via.placeholder.com/1000x400">
+<img src="https://via.placeholder.com/1000x400">
+<img src="https://via.placeholder.com/1000x400">
+</div>
+</div>
+
+<div class="container">
+
+<!-- SERVICES -->
+<div id="services">
+<h2>Our Services</h2>
+
+<div class="services">
+<div class="card">Aadhaar Card Update</div>
+<div class="card">PAN Card Apply</div>
+<div class="card">Money Transfer</div>
+<div class="card">Bank Account Opening</div>
+<div class="card">Electricity Bill Payment</div>
+<div class="card">Online Form Filling</div>
+</div>
+
+</div>
+
+<!-- APPLY FORM -->
+<div id="apply" class="box">
+<h2>Apply Online</h2>
+
+<iframe src="https://docs.google.com/forms/d/e/XXXXXXXXXXXX/viewform?embedded=true"
+width="100%" height="500"></iframe>
+
+</div>
+
+<!-- CONTACT -->
+<div id="contact" class="box">
+<h2>Contact Us</h2>
+
+<p>📞 9000000000</p>
+<p>📍 Your Location</p>
+
+<iframe src="https://www.google.com/maps?q=India&output=embed"
+width="100%" height="300"></iframe>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Faizi Jan Seva Kendra</p>
+</footer>
+
+<!-- FLOAT BUTTONS -->
+<a class="whatsapp" href="https://wa.me/919000000000">💬</a>
+<a class="call" href="tel:9000000000">📞</a>
+
+</body>
+</html>
